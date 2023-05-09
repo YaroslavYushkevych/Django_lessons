@@ -15,6 +15,23 @@ cd E:\PycharmProjects\Django_lessons\djsite
 deactivate
 """
 
+"""
+Перейти до директорії сайту
+cd testsite
+
+Запускаєм сервер
+python manage.py runserver
+
+Завершити роботу серверу
+Ctrl + Break / Ctrl + C
+
+Інший порт 
+python manage.py runserver 4000
+
+Інша адреса
+python manage.py runserver 192.168.1.1:4000
+"""
+
 
 
 
