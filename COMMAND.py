@@ -8,7 +8,7 @@ cd E:\PycharmProjects\Django_lessons\djsite
 OR
 cd djsite
 
-Активувати віртуальне оточення
+Активувати віртуальне оточення.
 .\venv\Scripts\activate
 
 
