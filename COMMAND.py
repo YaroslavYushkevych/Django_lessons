@@ -32,7 +32,15 @@ python manage.py runserver 4000
 python manage.py runserver 192.168.1.1:4000
 """
 
+"""
+Створити новий додаток
+python manage.py startapp women
 
+Потім додати його в settings.py
+
+Потім додати паттерн в urls.py
+
+"""
 
 
 
