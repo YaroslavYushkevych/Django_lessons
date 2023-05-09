@@ -5,7 +5,8 @@ python -m venv venv
 
 перейти до директорії
 cd E:\PycharmProjects\Django_lessons\djsite
-
+OR
+cd djsite
 
 Активувати віртуальне оточення
 .\venv\Scripts\activate
@@ -31,6 +32,19 @@ python manage.py runserver 4000
 Інша адреса
 python manage.py runserver 192.168.1.1:4000
 """
+
+"""
+Створити міграцію
+python manage.py makemigrations
+
+Переглянути міграцію 
+python manage.py sqlmigrate women 0001
+
+Створення таблиці в БД
+python manage.py migrate
+
+"""
+
 
 """
 Створити новий додаток
