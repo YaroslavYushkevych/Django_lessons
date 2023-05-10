@@ -1,0 +1,8 @@
+Формування URL-адрес у шаблонах
+https://proproprogs.ru/django/formirovanie-url-adresov-v-shablonah
+
+Для звернень до БД краще використовувати не id напряму, а slug
+
+Краще прописувати метод get_absolute_url для моделі, ніж посилатись на неї в шаблоні.
+
+get_absolute_url - використовується Django по замовчуванню як головне посилання
