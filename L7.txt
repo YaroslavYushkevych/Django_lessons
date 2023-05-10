@@ -1,0 +1,4 @@
+Підключення статичних файлів. Фільтри шаблонів
+https://proproprogs.ru/django/podklyuchenie-staticheskih-faylov-filtry-shablonov
+
+
