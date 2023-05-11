@@ -1,0 +1,20 @@
+# Вивести всі поля, окрім тих що заповнюються автоматично
+#fields = '__all__'
+
+Але краще вказувати їх явно
+fields = ['title', 'slug', 'content', 'photo', 'is_published', 'cat']
+
+#Обов'язковий атрибут для роботи з фото
+enctype="multipart/form-data"
+
+При звантаженні даних через форму, спочатку дані проходять стандартну валідацію, а потім користувацький
+
+Приклад користувацького валідатору для поля title
+
+    def clean_title(self):
+        title = self.cleaned_data['title']
+        if len(title) > 200:
+            raise ValidationError('Довжина назви перевищує 200-ті символів')
+
+        return title
+
