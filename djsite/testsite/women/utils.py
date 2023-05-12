@@ -5,7 +5,6 @@ from women.models import Category
 menu = [{'title': "Про сайт", 'url_name': 'about'},
         {'title': "Додати статтю", 'url_name': 'add_page'},
         {'title': "Зворотній зв'язок", 'url_name': 'contact'},
-        {'title': "Зайти", 'url_name': 'login'}
 ]
 
 
